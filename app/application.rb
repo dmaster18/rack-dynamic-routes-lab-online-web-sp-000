@@ -2,7 +2,9 @@ class Application
 
   @@item = []
 
-  def self.items
+  def self.item
+    @@item
+  end
   
   def call(env)
     resp = Rack::Response.new
