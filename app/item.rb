@@ -5,6 +5,5 @@ class Item
     @name = name
     @price = price
     Application.item << self
-    
   end
 end
